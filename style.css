@@ -1,0 +1,162 @@
+body{
+    font-family: "urbanist", Verdana, Geneva, Tahoma, sans-serif;
+    margin:0;
+    color:#4C5958;
+    padding-top: 50px;
+}
+h1{
+   letter-spacing: 10px; 
+}
+#acerca-de-mi {
+    animation: aparecer 2s ease-in-out;
+}
+#habilidades {
+    animation: aparecer 3s ease-in-out;
+}
+#experiencia {
+    animation: aparecer 4s ease-in-out;
+}
+#lista-de-proyectos {
+    animation: aparecer 5s ease-in-out;
+}
+#informacion-de-contacto {
+    animation: aparecer 6s ease-in-out;
+}
+@keyframes aparecer {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+h2{
+    font-family: "Tiny5";
+    letter-spacing: 5px; 
+}
+h3{
+    color: white;
+    background-color: #127369;
+    border: 1px solid #8AA6A3;
+    margin-top: 0;
+    padding: 5px;
+    letter-spacing: 2px; 
+}
+nav{
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 50px;
+    background-color: #10403B;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.menu-item{
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    margin-inline: 20px;
+}
+.menu-item:hover{
+    background-color:#127369;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid rgb(7, 53, 61);
+    border-radius: 5px;
+    padding: 5px;
+}
+header{
+    background-image: url(https://img.freepik.com/free-vector/green-data-technology-background-vector-with-circuit-lines_53876-110872.jpg?t=st=1718918657~exp=1718922257~hmac=5b19379eecfd74663379d2f3e2bf64eecbb5d2af0df42e6fadeb1d720ec69668&w=826);
+    color:white;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+section{
+    padding: 20px;
+    border: 2px solid#8AA6A3;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#acerca-de-mi{
+    text-align: justify;
+}
+#acerca-de-mi h3{
+    text-align: center;
+}
+#habilidades{
+list-style: none;
+}
+#habilidades ul li{
+display: inline-block;
+padding: 5px;
+border: 1px solid darkolivegreen;
+border-radius: 5px;
+margin-right: 10px;
+}
+#experiencia ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#experiencia ul li{
+    margin-bottom: 10px;
+}
+#lista-de-proyectos ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#lista-de-proyectos ul li a{
+    text-decoration: none;
+    color: #127369;
+}
+#lista-de-proyectos ul li a:hover{
+    text-decoration: underline;
+}
+#informacion-de-contacto{
+    text-align: center;
+    height: 75px;
+}
+#informacion-de-contacto ul li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 20px;
+}
+#sociales {
+    list-style: none;
+}
+#sociales li{
+    list-style: none;
+    display: inline-block;
+    margin-inline: 5px;
+}
+#informacion-de-contacto form {
+    margin: 0 auto;
+    width: 500px;
+}
+#informacion-de-contacto form input,
+#informacion-de-contacto form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+#informacion-de-contacto form textarea {
+    height: 100px;
+}
+#contacto form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    text-align: center;
+    background-color: #4C5958;
+    color: white;
+    height: 40px;
+    padding: 1px;
+}
+
